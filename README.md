@@ -1,5 +1,3 @@
-# odin-recipes
-
 # Recipe Page ⭐️
 
 Create a recipe page to showcase basic HTML & CSS.
@@ -12,8 +10,8 @@ This was the very first assignment with the updated Odin Project curriculum. I l
 
 **Built with**
 
-- HTML
-- CSS
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 # Let's Network 🔗
 
