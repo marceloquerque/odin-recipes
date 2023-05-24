@@ -7,3 +7,24 @@ img {
     width: 100px;
     
 }
+
+.body--images {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.surfboard--cards {
+    display: flex;
+}
+
+.surfboard {
+    height:250px;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: .5rem;
+}
+
+.inferno {
+    background-image: url("https://content.cavewire.com/host/sharpeye-us/path/media/catalog/product/cache/1/thumbnail/800x/e4d92e6aceaad517e7b5c12e0dc06587/s/h/sharpeyesurfboards_infernoft_deck_us.png");
+}
