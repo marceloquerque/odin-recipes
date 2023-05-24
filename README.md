@@ -1,6 +1,6 @@
 # Recipe Page ⭐️
 
-Create a recipe page to showcase basic HTML & CSS.
+Create a surfboard 'recipe' page to showcase basic HTML & CSS.
 
 # Thoughts 💭
 
