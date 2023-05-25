@@ -1,6 +1,6 @@
 # Recipe Page ⭐️
 
-Create a surfboard 'recipe' page to showcase basic HTML & CSS.
+Create a Odin Recipe page to showcase basic HTML & CSS.
 
 # Thoughts 💭
 
