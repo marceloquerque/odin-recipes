@@ -1,6 +1,7 @@
 # Recipe Page ⭐️
 
 Create a Odin Recipe page to showcase basic HTML & CSS.
+[Project Link](https://marceloquerque.github.io/odin-recipes/)
 
 # Thoughts 💭
 
