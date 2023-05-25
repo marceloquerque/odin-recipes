@@ -9,16 +9,103 @@ img {
     max-width: 100%;
 }
 
-body {
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+html, body {
+    /* height: 100%; */
 	display: grid;
 	justify-content: center;
 	width: 100vw;
 }
 
-.card {
-    position: relative;
-    overflow: hidden;
+.title {
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.4rem;
+}
+
+.container {
     display: flex;
-    gap: 30px;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+.card {
+    height: 500px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: .3rem;
+    position: relative;
+}
+
+.card:hover{ /* Just for styling */
+    cursor: pointer;
+    box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+  }
+
+.card--title {
+    position: absolute; 
+    left: 0; 
+    bottom: 0; 
+    align-self: flex-end; padding: 0.5rem;
+    color: rgba(255,255,255,.90); font-size: 2rem;
+    line-height: 1;font-weight: 600;
+}
+
+.center-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.odin-logo {
+    width: 90px;
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    width: 1200px;
+    gap: 100px;
+}
+
+.recipe--title {
+    font-size: 5.4rem;
+}
+
+/* .recipe {
+    position: relative;
+    top: 100px;
+} */
+
+.recipe-photo {
+    width: 400px;
+    border-radius: 1rem;
+}
+
+.recipe--about {
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.instructions {
+    margin: 30px 0 0 50px;
+    display: flex;
+    gap: 150px;
+}
+
+.ingredients {
+    display: grid;
+    gap: 20px;
+    background-color: #f5f2f0;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.directions {
+    display: grid;
+    gap: 20px;
 }
 
