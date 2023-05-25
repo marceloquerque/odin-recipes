@@ -15,27 +15,10 @@ body {
 	width: 100vw;
 }
 
-.cards {
+.card {
     position: relative;
     overflow: hidden;
     display: flex;
     gap: 30px;
 }
 
-.card--inferno {
-    height: 400px;
-    width: 300px;
-    border: 1px solid green;
-}
-
-.card--seaside {
-    height: 400px;
-    width: 300px;
-    border: 1px solid green;
-}
-
-.card--twinpin {
-    height: 400px;
-    width: 300px;
-    border: 1px solid green;
-}
